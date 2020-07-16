@@ -5,7 +5,7 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build...') {
+        stage('feature 1') {
             steps {
                 echo 'Building'
             }
