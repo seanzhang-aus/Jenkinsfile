@@ -5,12 +5,12 @@ pipeline {
         skipStagesAfterUnstable()
     }
     stages {
-        stage('Build') {
+        stage('Build...') {
             steps {
                 echo 'Building'
             }
         }
-        stage('Test') {
+        stage('Test...') {
             steps {
                 echo 'Testing'
             }
